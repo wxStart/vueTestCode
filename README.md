@@ -1,24 +1,9 @@
 # vue-demo
 
-## Project setup
-```
-yarn install
-```
+###  provide / inject 通信测试代码
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+clone 代码
 
-### Compiles and minifies for production
-```
-yarn build
-```
+```npm i```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```npm run  serve```
