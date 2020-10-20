@@ -1,11 +1,10 @@
 <template>
   <div :class="$style.root">
     <div :class="$style.child1">
-      <div :class="$style.title">直属孩子组件</div>
+      <div :class="$style.title">儿子组件</div>
       <div>{{ foot.name }}</div>
-      <div :class="$style.click" @click="change">改变数据源</div>
+      <div :class="$style.click" @click="change">点击我，改变数据源</div>
     </div>
-
     <div><child2 /></div>
   </div>
 </template>
