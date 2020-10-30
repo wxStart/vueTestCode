@@ -1,21 +1,14 @@
 <template>
   <div id="app">
-    <provide-inject @click-child="clickChild" />
+    vue
   </div>
 </template>
 
 <script>
-import ProvideInject from "./components/provide-inject/ProvideInject";
-
 export default {
   name: "App",
-  components: {
-    ProvideInject,
-  },
   methods: {
-    clickChild(value) {
-      console.log("value: ", value);
-    },
+   
   },
 };
 </script>
