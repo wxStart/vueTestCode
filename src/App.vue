@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    vue
+    <event-bus/>
   </div>
 </template>
 
 <script>
+import EventBus from "./components/event-bus/EventBus";
 export default {
   name: "App",
-  methods: {
-   
+  components: {
+    EventBus,
   },
+  methods: {},
 };
 </script>
 
