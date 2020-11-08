@@ -1,15 +1,19 @@
 <template>
   <div id="app">
-    vue
+    <div>
+      <router-link to="/">首页</router-link
+      ><router-link to="/other">其他</router-link>
+    </div>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   name: "App",
-  methods: {
-   
-  },
+  methods: {},
 };
 </script>
 
